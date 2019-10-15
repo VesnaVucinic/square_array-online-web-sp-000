@@ -9,6 +9,14 @@ def square_array (numbers)
 end
 square_array (numbers)
 
+numbers = [1,2,3]
+def square_array (numbers)
+  numbers.collect do |number|
+  number ** 2
+ end
+end
+square_array (numbers)
+
 =begin
 def square_array(array)
   squared = []
